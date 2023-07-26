@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+<center>
+  This is our home page. <% if (email) { %>
+  <p><%=email%> is now logged in</p>
+  <% } else { %>
+  <p>Please Log in</p>
+  <% } %>
+</center>
+<%- include('partials/footer') %>
